@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="język_kodu"> <!--Ustaw język kodu-->
+
+  <head>
+    <meta charset="UTF-8"> <!--Standard kodowania znaków-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Modyfikacja, aby strony były czytelne w zależności od urządzeń na którym są wyświetlane-->
+    <meta name="description" content="X"> <!--Opis strony, który będzie się wyświetlał w wyszukiwarce przeglądarki-->
+    <!--Rozważ użycie innych meta elements-->
+    <title>This is the title of the webpage!</title>
+    <link rel="stylesheet" href="./styles.css" /><!--Link do pliku CSS, który będzie odpowiedzialny za stylizację strony-->
+  </head>
+  
+  <body>
+    <h1>Checkout</h1>
+    
+    <section>
+        <h2>Your Cart</h2>
+        
+        <img 
+        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" 
+        alt="Rubic Cube"
+        />
+
+
+    </section>
+    
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            
+            <label for="card-name">Cardholder name</label>
+            <input 
+            type="text"
+            id="card-name"
+            name="card-name"
+            required
+            aria-required="true"
+            placeholder="John Doe"
+            />
+
+            <label for="card-number">Card number</label>
+            <input 
+            type="number"
+            id="card-number"
+            name="card-number"
+            required
+            aria-required="true"
+            placeholder="1234 5678 9012 3456"
+            />
+
+            <label for="expire-date">Expire date</label>
+            <input 
+            type="date"
+            id="expire-date"
+            name="expire-date"
+            required
+            aria-required="true"
+            placeholder="MM/YY"
+            />
+
+            <label for="cvv-number">CVV</label>
+            <input 
+            type="number"
+            id="cvv-number"
+            name="cvv-number"
+            required
+            aria-required="true"
+            placeholder="123"
+            />
+        </form>
+        
+    </section>
+  </body>
+
+</html>
