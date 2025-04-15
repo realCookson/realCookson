@@ -1,0 +1,39 @@
+a {
+    color:#E6E6FA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #66023C;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #EE82EE;
+    text-decoration: underline;
+}
+
+a:focus {
+   border: 2px solid #EE82EE;
+}
+
+a:active {
+    color: #66023C;
+    text-decoration: underline;
+}
+
+.container_todo-list {
+    align-items: center;
+    background-color: #653780;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    height: 600px;
+    margin: 50px auto 50px auto;
+    padding-top: 20px;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
