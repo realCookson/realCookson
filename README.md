@@ -49,10 +49,10 @@
   <a href="https://x.com/_RealCookie_" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/X_icon_black.svg/960px-X_icon_black.svg.png?20240814152939" width="42" height="42" alt="X logo"  />
   </a>
-  <a href="piotr.sasin.biz@outlook.com" target="_blank">
+  <a href="mailto:piotr.sasin.biz@outlook.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="52" height="40" alt="microsoft-outlook logo"  />
   </a>
-  <a href="realcookson" target="_blank">
+  <a href="https://discordapp.com/users/realcookson" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
   </a>
 </div>
