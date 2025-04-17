@@ -44,15 +44,15 @@
 
 <div align="left">
   <a href="https://www.linkedin.com/in/sasin-piotr/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png" width="52" height="40" alt="linkedin logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
   <a href="https://x.com/_RealCookie_" target="_blank">
-    <img src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" width="52" height="40" alt="twitter logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
   </a>
-  <a href="mailto:piotr.sasin.biz@outlook.com" target="_blank">
-    <img src="https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-07-512.png" width="52" height="40" alt="microsoft-outlook logo"  />
+  <a href="piotr.sasin.biz@outlook.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="52" height="40" alt="microsoft-outlook logo"  />
   </a>
-  <a href="https://discordapp.com/users/realcookson)" target="_blank">
-    <img src="https://brandlogos.net/wp-content/uploads/2021/11/discord-logo-512x512.png" width="52" height="40" alt="discord logo"  />
+  <a href="realcookson" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
   </a>
 </div>
