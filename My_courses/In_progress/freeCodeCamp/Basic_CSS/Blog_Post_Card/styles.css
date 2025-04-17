@@ -15,18 +15,16 @@ body {
     margin: auto;
 }
 
-.read-more {
-    background-color:green;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+.read-more:hover {
+    background-color: darkgreen;
+    text-decoration: underline;
 }
 
 .post-img {
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0 0;
+    border-bottom: 5px solid green;
 }
 
 .post-title {
@@ -36,9 +34,20 @@ body {
 
 .post-excerpt {
     color: #555;
-    margin: 0 20px 30px 20px;
+    margin: 0 20px 25px 20px;
 }
 
 .post-content{
     padding: 10px;
+}
+
+.read-more {
+    background-color:green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1px 1px 20px 1px; /* Just to meet up requirements of the exercise */
+    display: inline-block;
+    width: 100px;
 }
