@@ -43,18 +43,16 @@
 ###
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/sasin-piotr/" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" />
+  <a href="https://www.linkedin.com/in/sasin-piotr/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
-  <a href="https://x.com/_RealCookie_" target="_blank" style="text-decoration: none;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/X_icon_black.svg/960px-X_icon_black.svg.png?20240814152939" width="42" height="42" alt="X logo" />
+  <a href="https://x.com/_RealCookie_" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/X_icon_black.svg/960px-X_icon_black.svg.png?20240814152939" width="42" height="42" alt="X logo"  />
   </a>
-  <a href="mailto:piotr.sasin.biz@outlook.com" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="52" height="40" alt="microsoft-outlook logo" />
+  <a href="piotr.sasin.biz@outlook.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/microsoft-outlook/default.svg" width="52" height="40" alt="microsoft-outlook logo"  />
   </a>
-  <a href="https://discord.com/users/realcookson" target="_blank" style="text-decoration: none;">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
+  <a href="realcookson" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
   </a>
 </div>
-
-
