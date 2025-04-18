@@ -9,7 +9,7 @@
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=realCookson&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true" height="150" alt="languages graph"  />
   <img src="https://nirzak-streak-stats.vercel.app/?user=realCookson&theme=github_dark_dimmed&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=realCookson&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=realCookson&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="133" alt="languages graph"  />
 </div>
 
 ###
