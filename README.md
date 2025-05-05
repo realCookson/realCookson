@@ -40,7 +40,6 @@
     <a href="https://instagram.com/piotrsasin_"><img alt="Instagram Badge" width="auto" height="auto" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white"/></a>
     <a href="https://linkedin.com/in/sasin-piotr"><img alt="linkedin Badge" width="auto" height="auto" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"/></a>
     <a href="https://reddit.com/user/Cookieexd"><img alt="Reddit Badge" width="auto" height="auto" src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white"/></a>
-    <a href="https://tiktok.com/@realcookson"><img alt="Tiktok Badge" width="auto" height="auto" src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white"/></a>
     <a href="https://x.com/_RealCookie_"><img alt="X Badge" width="auto" height="auto" src="https://img.shields.io/badge/Platform-black?style=flat&logo=x"/></a>
     <a href="mailto:piotr.sasin.biz@outlook.com"><img alt="Email Badge" width="auto" height="auto" src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"/></a>
 </div>
