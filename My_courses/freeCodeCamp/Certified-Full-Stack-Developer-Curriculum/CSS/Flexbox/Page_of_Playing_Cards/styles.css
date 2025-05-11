@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(192, 54, 0, 0.678);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+
+}
+
+#playing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 5px;
+    align-items: center;
+}
+
+
+.middle {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.middle .suit {
+    font-size: 4rem;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    transform: rotate(180deg);
+    padding: 5px;
+    align-items: center;
+}
+
+.red {
+    color: rgb(230, 0, 0);
+}
+
+.black {
+    color: rgb(25, 25, 25);
+}
+
+.rank {
+    font-size: 2rem;
+}
+
+.suit {
+    font-size: 2rem;
+}
+
+.suit-upside-down {
+    transform: rotate(180deg);
+}
