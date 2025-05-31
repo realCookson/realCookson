@@ -1,1 +1,346 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Technical Documentation Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div id="layout">
+            <nav id="navbar">
+                <header>
+                    <h1>CSS - Colors</h1>
+                </header>
+                    <ul>
+                    <li><a class="nav-link" href="#Color_Theory_in_Design">Color Theory in Design</a></li>
+                    <li><a class="nav-link" href="#Named_Colors_in_CSS">Named Colors in CSS</a></li>
+                    <li><a class="nav-link" href="#RGB_Color_Model">RGB Color Model</a></li>
+                    <li><a class="nav-link" href="#HSL_Color_Model">HSL Color Model</a></li>
+                    <li><a class="nav-link" href="#Hex_Codes">Hex Codes</a></li>
+                    <li><a class="nav-link" href="#Linear_and_Radial_Gradients">Linear and Radial Gradients</a></li>
+                    </ul>
+            </nav>
+
+            <main id="main-doc">
+                <section class="main-section" id="Color_Theory_in_Design">
+                    <header>Color Theory in Design</header>
+
+                    <h2>What is color theory in design?</h2>
+
+                    <p>Color theory is the study of how colors interact with each other and 
+                        how they affect our perception. It covers color relationships, color 
+                        harmony, and the psychological impact of color. Let's start diving 
+                        into this world. Colors can be classified as either primary, secondary, 
+                        or tertiary.</p>
+                    <p>Primary colors, yellow, blue, and red, are the fundamental hues from 
+                        which all other colors are derived.</p>
+                    <p>Secondary colors result from mixing equal amounts of two primary colors. 
+                        Green, orange, and purple are examples of secondary colors. For example, 
+                        green is the result of combining yellow and blue.</p>
+                    <p>Tertiary colors result from combining a primary color with a neighboring 
+                        secondary color. Yellow-Green, Blue-Green, and Blue-Violet, are examples 
+                        of tertiary colors.</p>
+                    <p>This is a fundamental classification in the world of color theory, but 
+                        there are other ways to classify colors. They can be classified as warm 
+                        or cool, based on their temperature.</p>
+                    <p>Warm colors, like reds, oranges, and yellows, evoke feelings of comfort, 
+                        warmth, and coziness. Cool colors, like blues, green, and purples, evoke 
+                        feelings of calmness, serenity, and professionalism.</p>
+                    <p>Colors can also be represented through color models. They are essential 
+                        for describing and reproducing colors in a standard way. Frequently used 
+                        color models include the RGB model, the HSV model, and the HSL model. 
+                        They represent colors based on different properties. You will learn more 
+                        about them in future lectures.</p>
+                    <p>Great. Now that you know more about this, let's talk about a fundamental 
+                        tool that designers use to represent colors and their relationships. 
+                        The color wheel is a circular diagram that shows how colors relate to 
+                        each other. It's an essential tool for designers because it helps them 
+                        to select color combinations. This is very helpful for creating color 
+                        palettes and color schemes.</p>
+                    <p>A color scheme is the set of colors chosen for a specific design or 
+                        project. They are usually based on the principles of color theory. 
+                        By understanding the relationships between colors on the wheel, you can 
+                        develop different types of color schemes. Let's see some of them.</p>
+                    <p>Analogous color schemes create cohesive and soothing experiences. 
+                        They have analogous colors, which are adjacent to each other in 
+                        the color wheel.</p>
+                    <p>Complementary color schemes create high contrast and visual impact. 
+                        Their colors are located on the opposite ends of the color wheel, 
+                        relative to each other.</p>
+                    <p>Color contrast is essential for web accessibility. It ensures that text 
+                        and other important elements are clearly distinguishable from 
+                        their background. This is especially important for people with 
+                        visual disabilities.</p>
+                    <p>In an RGB color wheel, complementary colors are located at the opposite 
+                        ends of the wheel. For example, magenta is complementary to green and 
+                        blue is complementary to yellow and so on.</p>
+                    <p>A triadic color scheme has vibrant colors. They are made from colors that 
+                        are approximately equidistant from each other. If they are connected, 
+                        they form an equilateral triangle on the color wheel.</p>
+                    <p>And finally, we have the monochromatic color scheme. In this color scheme, 
+                        all the colors are derived from the same base color by adjusting its 
+                        lightness, darkness, and saturation. This evokes a feeling of unity 
+                        and harmony while still creating contrast.</p>
+                    <p>And finally, here are some tips for using color effectively 
+                        in web development:</p>
+                    <ul>
+                        <li>Create a color scheme that defines your website's branding.</li>
+                        <li>Use colors to evoke the emotions and perceptions that align with your goals.</li>
+                        <li>Choose colors with enough contrast to make your website accessible for everyone.</li>
+                        <li>Use color to highlight important elements of your website, like buttons.</li>
+                        <li>Use color consistently and use it to create a visual hierarchy.</li>
+                    </ul>
+                    <p>Color theory is a core aspect of design. By understanding color psychology, 
+                        harmonies, and accessibility, you can create effective designs, evoke 
+                        emotions, and enhance user experience.</p>
+                </section>
+                <section class="main-section" id="Named_Colors_in_CSS">
+                    <header>Named Colors in CSS</header>
+                        
+                    <h2>What are named colors in CSS, and when to use them?</h2>
+                        
+                    <p>In CSS, colors play a crucial role in designing web pages, enhancing 
+                        readability, setting the mood, and improving user experience. 
+                        One of the simplest ways to define colors in CSS is by using named colors. 
+                        Named colors are predefined color names recognized by browsers. Here is 
+                        an example of using a named color for a paragraph element:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                p {
+                                    color: red;
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>In this example, we're using the named 
+                        color <span>red</span> to style the text in a paragraph.</p>
+                    <p>Named colors in CSS are a collection of 140 standard color names like 
+                        <span>red</span>, <span>blue</span>, <span>yellow</span>, <span>aqua</span>, 
+                        <span>fuchsia</span>, <span>black</span>, and so on. 
+                        These names are simple to use and make your code more readable, and 
+                        they are self-descriptive.</p>
+                    <p>Named colors are useful for quick prototyping, simple designs, 
+                        and improving code readability. Here is an another example of using 
+                        named colors for an <span>h1</span> selector:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                h1 {
+                                    color: navy;
+                                    background-color: lightgray;
+                                    font-size: 24px;
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>In this example, the heading text will be styled in navy, with a light gray 
+                        background. The readability of the code improves since named colors 
+                        provide an immediate visual understanding of the intended style.</p>
+                    <p>Named colors in CSS are convenient but limited, with only 140 available 
+                        options. They may not offer the precise shade needed 
+                        for more detailed designs.</p>
+                    <p>Named colors in CSS are a great way to apply colors quickly and 
+                        descriptively. While they are useful for basic designs, prototyping, 
+                        and improving code readability, their limited range makes them 
+                        less suitable for complex designs requiring precise color control.</p>
+                    <p>By understanding the strengths and limitations of named colors, you 
+                        can determine when it’s best to use them over more detailed color 
+                        models like RGB or HSL, which you will learn about in future videos.</p>
+                </section>
+                <section class="main-section" id="RGB_Color_Model">
+                    <header>RGB Color Model</header>
+                        
+                    <h2>What is the RGB color model, and how does the RGB function work in CSS?</h2>
+                        
+                    <p>When working with colors in CSS, understanding the RGB color model is 
+                        essential. RGB stands for Red, Green, and Blue — the primary 
+                        colors of light. These three colors are combined in different intensities 
+                        to create a wide range of colors.</p>
+                    <p>The RGB color model is an additive color model, which means colors are created 
+                        by combining light at varying intensities.</p>
+                    <p>The intensity of each color can range from <span>0</span> (which means no light) 
+                        to <span>255</span> (which means full light). By mixing different levels of red, 
+                        green, and blue, you can produce any color you see on your screen. For example:</p>
+                    <ul>
+                        <li>Black is represented by <span>rgb(0, 0, 0)</span>, which means no light for any of the three colors.</li>
+                        <li>White is represented by <span>rgb(255, 255, 255)</span>, which means full light intensity for all three colors.</li>
+                        <li>Red is represented by <span>rgb(255, 0, 0)</span>, with full intensity for red and none for green or blue.</li>
+                    </ul>
+                    <p>In CSS, the <span>rgb()</span> function allows you to define colors using the RGB color model. 
+                        The function takes three values, each representing the intensity of red, green, 
+                        and blue light, respectively. Here is the basic syntax:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                element {
+                                    color: rgb(red, green, blue);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>The values for red, green, and blue can range from <span>0</span> to <span>255</span>, where <span>0</span> represents 
+                        the absence of that color, and <span>255</span> represents full saturation. Here is an example of how you might use 
+                        the <span>rgb()</span> function in CSS:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                p {
+                                    color: rgb(255, 0, 0);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>This code would change the text color of the paragraph to red because the red value is set 
+                        to <span>255</span>, while green and blue are set to <span>0</span>.</p>
+                    <p>CSS also provides the <span>rgba()</span> function, which adds a fourth value —alpha— that controls 
+                        the transparency of the color. The alpha value ranges from <span>0</span> (completely transparent) 
+                        to <span>1</span> (completely opaque). Here is an example of using <span>rgba()</span>:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                div {
+                                    background-color: rgba(0, 0, 255, 0.5);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>This code would apply a semi-transparent blue background to a <span>div</span> element because 
+                        the red and green values are set to <span>0</span>, the blue value is set to <span>255</span>, 
+                        and the alpha value is set to <span>0.5</span> (50% transparency).</p>
+                    <p>The RGB color model is especially useful for digital media because it directly corresponds to 
+                        how screens display colors. Monitors and displays use tiny red, green, and blue pixels to 
+                        create the colors you see. By controlling the intensity of these pixels through RGB values, 
+                        you can achieve a wide range of colors for your web design.</p>
+                    <p>Additionally, the RGB model is ideal when working with dynamic designs. For instance, if you 
+                        want to create animations or color effects that require real-time changes, the flexibility 
+                        of the RGB function allows you to modify colors programmatically.</p>
+                    <p>By understanding the RGB color model and how to use the <span>rgb()</span> and <span>rgba()</span> 
+                        functions in CSS, you'll have greater control over how colors are displayed on your web pages. 
+                        You can create vibrant designs, transparency, and even programmatically adjust colors 
+                        for dynamic effects.</p>
+                </section>
+                <section class="main-section" id="HSL_Color_Model">
+                    <header>HSL Color Model</header>
+                        
+                    <h2>What is the HSL color model, and how does the <span>hsl()</span> function work in CSS?</h2>
+                        
+                    <p>When styling websites, one of the most versatile and intuitive ways to work with color is by using 
+                        the HSL color model. HSL stands for Hue, Saturation, and Lightness — three key components 
+                        that define a color.</p>
+                    <p>The HSL color model represents colors in a way that is more in line with how humans perceive color. 
+                        In this lecture, we will explore what the HSL color model is and how the <span>hsl()</span> 
+                        function is used in CSS.</p>
+                    <p>The hue is the color type, represented as an angle on the color wheel, which ranges from <span>0</span> 
+                        to <span>360</span> degrees. For example, <span>0</span> degrees represents red, <span>120</span> 
+                        degrees is green, and <span>240</span> degrees is blue. By adjusting the hue, you shift through 
+                        different colors on the spectrum</p>
+                    <p>Saturation refers to the intensity or purity of the color. It is measured as a percentage 
+                        from <span>0%</span> (a completely desaturated, grayscale color) to <span>100%</span> 
+                        (the most vibrant form of that color). A color with <span>100%</span> saturation is fully vivid, 
+                        while a color with <span>0%</span> saturation appears as a shade of gray.</p>
+                    <p>Lightness determines how light or dark the color is, again measured as a percentage. A lightness 
+                        value of <span>0%</span> will produce black, <span>50%</span> will give you the normal tone of the hue, 
+                        and <span>100%</span> will result in white.</p>
+                    <p>In CSS, the <span>hsl()</span> function is used to define colors using the HSL color model. 
+                        Here is the basic syntax:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                element {
+                                    color: hsl(hue, saturation, lightness);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>Let's break this down with an example:</p>
+                    <div class="code-example">    
+                        <code>
+                            <pre>
+                                p {
+                                    color: hsl(120, 100%, 50%);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>In this case, the hue is <span>120</span> degrees, which corresponds to green. The saturation 
+                        is <span>100%</span>, so the green will be fully vivid. The lightness is <span>50%</span>, 
+                        so it's at its normal tone — neither too dark nor too light. As a result, the text color of the paragraph 
+                        will be a bright green.</p>
+                    <p>One of the main advantages of the HSL color model is its intuitive nature. It makes it easy to adjust 
+                        a color’s vibrancy or lightness by tweaking the saturation and lightness values without having to 
+                        alter the core color (hue).</p>
+                    <p>For instance, if you want to create different shades or tints of the same color, you can simply 
+                        adjust the lightness value.</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                div.light {
+                                    background-color: hsl(240, 100%, 80%);
+                                }
+
+                                div.dark {
+                                    background-color: hsl(240, 100%, 20%);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>Here, both <span>div</span> elements are using the same hue (<span>240</span> degrees, which is blue), 
+                        but one has a lightness of <span>80%</span> (a lighter shade of blue), and the other has 
+                        a lightness of <span>20%</span> (a darker shade of blue).</p>
+                    <p>Just like the RGB model has an <span>rgba()</span> function to include transparency, the HSL model has 
+                        an <span>hsla()</span> function. The fourth parameter in this function represents the alpha value, 
+                        which controls the opacity of the color. Here is the basic syntax:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                element {
+                                    background-color: hsla(hue, saturation, lightness, alpha);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>Let's take a look at an example:</p>
+                    <div class="code-example">
+                        <code>
+                            <pre>
+                                div {
+                                    background-color: hsla(0, 100%, 50%, 0.5);
+                                }
+                            </pre>
+                        </code>
+                    </div>
+                    <p>This code would give the <span>div</span> a semi-transparent red background, where the hue is set 
+                        to <span>0</span> degrees (red), saturation is <span>100%</span>, lightness is <span>50%</span>, 
+                        and alpha is <span>0.5</span> (50% opacity).</p>
+                    <p>The HSL color model is particularly useful when you need to create color schemes and adjust 
+                        shades or tints easily.</p>
+                    <p>Because HSL separates the hue from saturation and lightness, you can keep a consistent color theme 
+                        while tweaking lightness for shadows or highlights. This level of flexibility makes HSL a favorite 
+                        for designers and developers alike.</p>
+                    <p>Additionally, HSL makes color values more readable and understandable when compared to other methods 
+                        like hex codes or RGB. You can more clearly see the intent behind the color and adjust accordingly, 
+                        especially when experimenting with different designs.</p>
+                    <p>With the HSL color model, you gain more flexibility in controlling color tones, saturation, 
+                        and lightness, making it a powerful tool for creating rich and dynamic designs in CSS.</p>
+                </section>
+                <section class="main-section" id="Hex_Codes">
+                    <header>Hex Codes</header>
+                        
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+                </section>
+                <section class="main-section" id="Linear_and_Radial_Gradients">
+                    <header>Linear and Radial Gradients</header>
+                        
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>.
