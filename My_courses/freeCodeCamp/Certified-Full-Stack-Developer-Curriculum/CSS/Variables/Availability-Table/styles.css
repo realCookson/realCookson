@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+:root {
+    --color0: #fff;
+    --color1: #DCF2C8;
+    --color2: #ADF28F;
+    --color3: #7EF249;
+    --color4: #6ACD3D;
+    --color5: #339900;
+    --solid-border: 1px solid black;
+    --dashed-border: 1px dashed black;
+}
+
+body {
+    background-color: #eeefff;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20vh auto;
+}
+
+table > thead > tr > th {
+    padding: 0.5em;
+    font-size: 0.8rem;
+    width: 50px;
+    
+}
+
+table > thead > tr > th:not(:first-child) {
+    border-bottom: 1px solid black;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: right;
+    padding: 0.5em;
+    top: -15px;
+    width: 75px;
+    height: 15px;
+    font-size: 0.8rem;
+    border-bottom: none;
+}
+
+table > tbody > tr > td {
+    width: 100px;
+    height: 15px;
+    border-left: 1px solid black;
+}
+
+table > tbody > tr > td:last-child {
+    border-right: 1px solid black;
+}
+
+.half td {
+    border-bottom: var(--dashed-border);
+}
+
+.sharp td {
+    border-bottom: var(--solid-border);
+}
+
+.available-0 {
+    background-color: var(--color0);
+}
+
+.available-1 {
+    background-color: var(--color1);
+}
+
+.available-2 {
+    background-color: var(--color2);
+}
+
+.available-3 {
+    background-color: var(--color3);
+}
+
+.available-4 {
+    background-color: var(--color4);
+}
+
+.available-5 {
+    background-color: var(--color5)
+}
+
+#legend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#legend > #zero {
+    position: relative;
+    left: -100px;
+    top: 20px;
+}
+
+#legend > #five {
+    position: relative;
+    right: -105px;
+    top: -18px;
+    border-right: 1px
+}
+
+#legend-gradient {
+    width: 175px;
+    height: 20px;
+   border: var(--solid-border);
+    background-image: linear-gradient(
+        90deg, 
+        var(--color0) 0% 17%,
+        var(--color1) 17% 34%,
+        var(--color2) 34% 50%,
+        var(--color3) 50% 67%,
+        var(--color4) 67% 83%,
+        var(--color5) 83% 100%);
+}
