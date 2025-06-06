@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #fdfdfd;
+}
+
+p {
+    color: #212427
+}
+
+#header {
+    width: 100vw;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 1em auto;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#header h1 {
+    color: #1b75bb;
+}
+
+#header .branding {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    margin-left: 1em;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+    margin-right: 5em;
+}
+
+#header #nav-bar li {
+    margin-left: 1em;
+    position: relative;
+}
+
+#header img {
+    min-width: 50px;
+    max-width: 100px;
+    width: 7vw;
+    height: auto;
+    background-color: #f4f4f4;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #1b75bb
+}
+
+a:hover {
+    color: #38b6ff
+}
+
+#form {
+    width: 20vw;
+    display: grid;
+}
+
+#form label {
+    width: 100vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    color: #1b75bb;
+    margin: 0.25em auto;
+}
+
+#form input {
+    width: 50vw;
+    height: 5vh;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+#form #submit {
+    width: 30vw;
+    height: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    background-color: #38b6ff;
+    border-radius: 5px;
+    padding: 0.5em;
+    border: none;
+    margin: 0 auto 2em auto;
+    text-align: center;
+}
+
+#form #submit:hover {
+    background-color: #1b75bb;
+    cursor: pointer;
+}
+
+#features {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    gap: 2em 2em;
+    position: relative;
+    margin: 1em auto;
+    padding: 0.5em;
+    justify-content: center;
+    align-content: center;
+}
+
+#features div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features div h2 {
+    color: #1b75bb;
+}
+
+#features img {
+    width: 10vw;
+    height: auto;
+    margin: auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#features p {
+    height: auto;
+    align-self: left;
+    letter-spacing: 0.05em;
+    justify-self: center;
+}
+
+#importance div {
+    width: 90vw;
+    display: flex;
+    position: relative;
+    margin: 0 auto 1em auto;
+    flex-direction: column;
+}
+
+#importance h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+    padding: 0.5em;
+    color: #1b75bb;
+}
+
+#importance p {
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#importance #video {
+    margin-bottom: 1em;
+    position: relative;
+    margin: 0 auto 2em auto;
+    width: 90%;
+    height: 50vh;
+}
+
+#pricing .pricing-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    align-self: center;
+    gap: 20px;
+}
+
+#pricing .pricing-list > div {
+    width: 22vw;
+    border: 2px solid #38b6ff;
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    height: 35vh;
+    row-gap: 0.5em;
+}
+
+#pricing .pricing-list > div > h3 {
+    color: #1b75bb;
+    width: 100%;
+    height: 5vh;
+    background-color: #38b6ff2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.75em;
+    text-transform: uppercase;
+}
+
+#pricing .pricing-list > div > .price {
+    color: #212427;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1b75bb
+}
+
+#pricing .pricing-list > div > button {
+    width: 50%;
+    height: 3vh;
+    margin: 0.75em auto;
+    justify-self: center;
+    background-color: #38b6ff;
+    color: #212427;
+    border: none;
+    border-radius: 2px;
+}
+
+#pricing .pricing-list > div > p {
+    color: #212427;
+    text-align: center;
+    margin-bottom: 0.2em;
+    font-size: 0.85rem;
+    height: 10px;       
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+footer > ul > li {
+    list-style: none;
+    padding: 0 0.5em;
+}
+
+@media only screen and (max-width: 640px) {
+    #nav-bar ul {
+        gap: 0.5em;
+        margin-right: 3em;
+        display: block;
+        list-style: none;
+        padding: 0;
+    }
+
+    #header #nav-bar li {
+        margin-left: 2em;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #header .branding {
+        display: flex;
+        align-items: center;
+        margin-left: 0.5em;
+    }
+
+    #header .branding h1 {
+        font-size: 1.2rem;
+    }
+
+    #header ul {
+        font-size: 0.8rem;
+    }
+
+    #features {
+        width: 90vw;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+    
+    p {
+        font-size: 0.6rem;
+    }
+
+    #form h2 {
+        font-size: 0.8rem;
+    }
+
+    #form input {
+        font-size: 0.8em;
+        width: 50vw;
+        height: 3vh;
+    }
+
+    #form #submit {
+        width: 30vw;
+        height: 5vh;
+        font-size: 0.8rem;
+    }
+
+    #pricing .pricing-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-self: center;
+        align-self: center;
+        gap: 20px;
+    }
+
+    #pricing .pricing-list > div {
+        width: 40vw;
+        height: 22vh;
+    }
+
+    #pricing .pricing-list > div > p {
+        font-size: 0.6rem;
+    }
+
+    #pricing .pricing-list > div > h3 {
+        font-size: 0.8rem;
+    }
+
+    #pricing .pricing-list > div > .price {
+        font-size: 0.8rem;
+    }
+
+     #pricing .pricing-list > div > button {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+    #importance #video {
+        margin-bottom: 1em;
+        position: relative;
+        margin: 0 auto 2em auto;
+        width: 60vw;
+        height: 70vh;
+    }
+}
