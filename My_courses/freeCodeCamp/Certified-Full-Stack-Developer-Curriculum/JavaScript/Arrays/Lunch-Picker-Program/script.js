@@ -14,7 +14,7 @@ function addLunchToStart (lunches, str) {
 
 function removeLastLunch (lunches) {
     const deletedLastLunchItem = lunches.pop();
-    if (deletedLastLunchItem.length !== 0) {
+    if (lunches.length > 0 && lunches !== undefined) {
         console.log(`${deletedLastLunchItem} removed from the end of the lunch menu.`);
     } else if (lunches.length === 0) {
         console.log(`No lunches to remove.`);
@@ -24,7 +24,7 @@ function removeLastLunch (lunches) {
 
 function removeFirstLunch (lunches) {
     const deletedFirstLunchItem = lunches.shift();
-    if (deletedFirstLunchItem.length !== 0) {
+    if (lunches.length > 0 && lunches !== undefined) {
         console.log(`${deletedFirstLunchItem} removed from the start of the lunch menu.`);
     } else {
         console.log(`No lunches to remove.`);
@@ -33,7 +33,7 @@ function removeFirstLunch (lunches) {
 }
 
 function getRandomLunch (lunches) {
-    if (lunches.length !== 0) {
+    if (lunches.length > 0 && lunches !== undefined) {
         const randomIndex = Math.floor(Math.random() * lunches.length);
         const randomLunch = lunches[randomIndex];
         console.log(`Randomly selected lunch: ${randomLunch}`);
@@ -43,12 +43,16 @@ function getRandomLunch (lunches) {
 }
 
 function showLunchMenu (lunches) {
-    if (lunches.length !== 0) {
-        console.log(`Menu items: ${lunches}`);
+    if (lunches.length > 0 && lunches !== undefined) {
+        console.log(`Menu items: ${lunches.join(", ")}`);
     } else {
         console.log(`The menu is empty.`);
     }
 }
+
+addLunchToEnd(lunches, "Tacos");
+
+addLunchToEnd(["Pizza", "Tacos"], "Burger");
 
 addLunchToStart(lunches, "Sushi");
 
