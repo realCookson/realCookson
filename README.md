@@ -16,8 +16,6 @@
     <img alt="HTML5 badge" width="auto" height="auto" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
     <img alt="CSS3 badge" width="auto" height="auto" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
     <img alt="Javascript badge" width="auto" height="auto" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-    <img alt="React badge" width="auto" height="auto" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-    <img alt="Python badge" width="auto" height="auto" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
     <h3 align="left">🛠️ DevOps:</h3>
     <img alt="Github badge" width="auto" height="auto" src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github"/>
     <img alt="Visual Studio Code badge" width="auto" height="auto" src="https://img.shields.io/badge/visual--studio--code-dodgerblue?style=for-the-badge"/> 
