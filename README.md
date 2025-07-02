@@ -27,9 +27,6 @@
     <img alt="Gmail badge" width="auto" height="auto" src="https://img.shields.io/badge/gmail-ghostwhite?style=for-the-badge&logo=gmail"> 
     <img alt="Discord Badge" width="auto" height="auto" src="https://img.shields.io/badge/Discord-ghostwhite?style=for-the-badge&logo=discord">
     <img alt="Miro Badge" src="https://img.shields.io/badge/miro-gold?style=for-the-badge&logo=miro">
-    <img alt="Outlook Badge" width="auto" height="auto" src="https://img.shields.io/badge/MS--Outlook-deepskyblue?style=for-the-badge&logo=outlook">
-    <img alt="MS Teams Badge" width="auto" height="auto" src="https://img.shields.io/badge/MS--Teams-darkslateblue?style=for-the-badge&logo=outlook">
-    <img alt="MS Sharepoint Badge" width="auto" height="auto" src="https://img.shields.io/badge/MS--Sharepoint-dodgerblue?style=for-the-badge&logo=outlook">
 </div>
 
 <div align="left">
