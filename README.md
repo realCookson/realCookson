@@ -24,7 +24,6 @@
     <img alt="Gimp badge" width="auto" height="auto" src="https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF"/>
     <img alt="Inkscape badge" width="auto" height="auto" src="https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=080A13"/>
     <h3 align="left">📈 Business Tools:</h3>
-    <img alt="Gmail badge" width="auto" height="auto" src="https://img.shields.io/badge/gmail-ghostwhite?style=for-the-badge&logo=gmail"> 
     <img alt="Discord Badge" width="auto" height="auto" src="https://img.shields.io/badge/Discord-ghostwhite?style=for-the-badge&logo=discord">
     <img alt="Miro Badge" src="https://img.shields.io/badge/miro-gold?style=for-the-badge&logo=miro">
 </div>
