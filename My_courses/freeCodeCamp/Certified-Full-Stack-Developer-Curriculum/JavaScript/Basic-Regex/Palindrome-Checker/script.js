@@ -29,7 +29,7 @@ function isPalindrome(text) {
 
 checkBtn.addEventListener("click", () => {
   const rawInput = userInput.value;
-  const regex = /\s|_|[.,-]/gi;
+  const regex = /\s|_|\W|/gi;
   const cleanedInput = rawInput.replaceAll(regex, "");
   console.log(cleanedInput.toLowerCase());
   if (userInput.value === "") {
