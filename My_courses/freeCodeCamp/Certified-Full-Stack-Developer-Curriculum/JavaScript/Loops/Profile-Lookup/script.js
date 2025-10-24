@@ -27,19 +27,21 @@ let contacts = [
 
 function lookUpProfile(name, property) {
   let result;
-  for (const object of contacts) {
+  for (let object of contacts) {
     if (object["firstName"] === name) {
-      result = object[property];
-      break
+      if (object[property] === undefined) {
+        result = "No such property";
+        break
+      } else {
+        result = object[property];
+        break
+      }
     } else if (object["firstName"] !== name) {
       result = "No such contact";
-    } else if (object[property] === undefined) {
-      result = "No such property";
     }
   }
-  return result;
+  return result
 }
-
 console.log(lookUpProfile("Akira", "lastName"));
 console.log(lookUpProfile("Kristian", "lastName"));
 console.log(lookUpProfile("Sherlock", "likes"));
