@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+
+.feature-card-container div {
+  max-width: 250px;
+  min-height: 125px;
+  border: 1px solid #BEBEBE;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
