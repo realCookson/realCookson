@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 40rem;
+    height: 36rem;
+    margin: 5rem auto;
+    background-color: whitesmoke;
+}
+
+#name, #email, #position, #message, .radio-group {
+    width: 38.7rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+#position {
+    width: 40rem;
+    height: 3rem;
+}
+
+#message {
+    height: 5rem;
+}
+
+#submission {
+    width: 40rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    background-color: grey;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+input:focus, textarea:focus {
+    border-color:black;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.radio-group input[type="radio"]:checked {
+    border-color: blue;
+    background-color: lightblue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.radio-group input[type="radio"]:checked + label {
+    color: blue;
+}
+
+input:first-of-type {
+    margin-left: 0.2rem;
+}

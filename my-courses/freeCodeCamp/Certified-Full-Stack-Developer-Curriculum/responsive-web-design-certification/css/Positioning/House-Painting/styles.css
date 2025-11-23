@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B9DEE0;
+    z-index: -2;
+}
+
+#house {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: #FFD03D;
+    border: 5px solid #CCA531;
+    top: 200px;
+    left: 250px; /* Centering the house */
+    z-index: 1;
+}
+
+#roof {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    border: 0px solid transparent;
+    background: 
+    repeating-linear-gradient(
+        -45deg,
+        #CCA531,
+        #CCA531 2%,
+        transparent 2%,
+        transparent 5%
+    ),
+    repeating-linear-gradient(
+        45deg,
+        #CCA531,
+        #CCA531 2%,
+        transparent 2%,
+        transparent 5%
+    );
+}
+
+#chimney {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    border: 2px solid #737373;
+    background-color: #E6E6E6;
+    top: -100px;
+    left: 350px;
+    z-index: -1;
+}
+
+#chimney-line-1 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 10px;
+    z-index: -1;
+}
+
+#chimney-line-2 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 22px;
+    z-index: -1;
+}
+
+#chimney-line-3 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 34px;
+    z-index: -1;
+}
+
+#chimney-line-4 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 46px;
+    z-index: -1;
+}
+
+#chimney-line-5 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 58px;
+    z-index: -1;
+}
+
+#chimney-line-6 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 70px;
+    z-index: -1;
+}
+
+#chimney-line-7 {
+    position: absolute;
+    width: 80px;
+    border: 1px solid #737373;
+    background-color: #E6E6E6;
+    right: -2px;
+    top: 82px;
+    z-index: -1;
+}
+
+#smoke-1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #00000069;
+    box-shadow: 0 0 20px #000000dc;
+    border-radius: 50%;
+    top: -140px;
+    left: 370px;
+    z-index: -2;
+}
+
+#smoke-2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #00000069;
+    box-shadow: 0 0 20px #000000dc;
+    border-radius: 50%;
+    top: -160px;
+    left: 375px;
+    z-index: -2;
+}
+
+#smoke-3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #00000069;
+    box-shadow: 0 0 20px #000000dc;
+    border-radius: 50%;
+    top: -180px;
+    left: 380px;
+    z-index: -2;
+}
+
+#window-1 {
+    position: absolute;
+    width: 100px;
+    height: 125px;
+    border: 3px solid #40280B;
+    background-color: #F0E6B3;
+    left: 50px;
+    top: 140px;
+}
+
+#middle-frame-1 {
+    position: absolute;
+    width: 62,5px;
+    height: 125px;
+    border: 2px solid #40280B;
+    background-color: transparent;
+    left: 45px;
+    top: -3px;
+}
+
+#window-2 {
+    position: absolute;
+    width: 100px;
+    height: 125px;
+    border: 3px solid #40280B;
+    background-color: #F0E6B3;
+    right: 50px;
+    top: 140px;
+}
+
+#middle-frame-2 {
+    position: absolute;
+    width: 62,5px;
+    height: 125px;
+    border: 2px solid #40280B;
+    background-color: transparent;
+    right: 45px;
+    top: -3px;
+}
+
+#door {
+    position: absolute;
+    width: 125px;
+    height: 200px;
+    border: 3px solid #40280B;
+    background-color: #805017;
+    top: 195px;
+    left: 185px;
+    bottom: 0%;
+}
+
+#door-handle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #40280B;
+    border-radius: 50%;
+    top: 90px;
+    left: 90px;
+}
+
+#welcome-carpet {
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    background-color: #FF5733;
+    border: 2px solid #40280B;
+    top: 605px;
+    left: 435px;
+    z-index: 1;
+    transform: skewX(-30deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#grass {
+    position: absolute;
+    background-color: #519608;
+    width: 100%;
+    height: 60vh;
+    top: 500px;
+}

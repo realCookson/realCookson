@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --timberwolf: #dad7cd;
+  --brunswickGreen: #344e41;
+}
+
+body {
+  background-color: var(--timberwolf);
+  color: var(--brunswickGreen);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+main h1 {
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+main textarea {
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 405px;
+  min-width: 405px;
+  height: 10vh;
+  color: var(--brunswickGreen);
+  border: 1px solid var(--brunswickGreen);
+  border-radius: 5px;
+}
+
+#char-count {
+  font-weight: 600;
+}

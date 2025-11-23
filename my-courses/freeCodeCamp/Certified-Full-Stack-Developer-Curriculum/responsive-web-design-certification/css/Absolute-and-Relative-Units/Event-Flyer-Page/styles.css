@@ -1,0 +1,130 @@
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color:lightslategrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+}
+
+.blast-logo {
+    width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid #000;
+}
+
+hr, section {
+    width: 80%;
+}
+
+.teams-attending {
+    text-align: center;
+    margin: -1.5rem auto 0 auto;
+}
+
+.teams-attending img {
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem;
+    border:#000 1px solid;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: grey
+}
+
+.gaming-company-stands {
+    text-align: center;
+    margin: 1.5rem auto 0 auto;
+}
+
+.gaming-company-stands img {
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem;
+    border:#000 1px solid;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: grey
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.vitality-logo {
+    margin-left: -29rem;
+}
+
+.spirit-logo {
+    margin-left: -10rem;
+    margin-top: -11.2rem
+}
+
+.mouz-logo {
+    margin-left: 9rem;
+    margin-top: -11.2rem
+}
+
+.faze-logo{
+    margin-left: 28rem;
+    margin-top: -11.2rem
+}
+
+.falcons-logo {
+    margin-left: -29rem;
+}
+
+.pain-logo {
+    margin-left: -10rem;
+    margin-top: -11.2rem
+}
+
+.flyquest-logo {
+    margin-left: 9rem;
+    margin-top: -11.2rem
+}
+
+.wildcard-logo {
+    margin-left: 28rem;
+    margin-top: -11.2rem
+}
+
+.razer-logo {
+    margin-left: -29rem;
+}
+
+.logitech-g-logo {
+    margin-left: -10rem;
+    margin-top: -11.2rem
+}
+
+.steelseries-logo {
+    margin-left: 9rem;
+    margin-top: -11.2rem
+}
+
+.hyperx-logo {
+    margin-left: 28rem;
+    margin-top: -11.2rem
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+hr {
+    border: 1px solid #000;
+    margin: 20px auto;
+    width: 80%;
+}

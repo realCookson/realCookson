@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Health & Safety Training Survey">
+
+    <title>Health & Safety Training Survey</title>
+    <link rel="stylesheet" href="./styles.css" /><!--Link do pliku CSS, który będzie odpowiedzialny za stylizację strony-->
+  
+</head>
+  
+<body>
+    
+    <header>
+        <h1 id="title">Health & Safety Training Survey</h1>
+        <p id="description">Please fill out the survey below to help us improve our health and safety training programs.</p>
+    </header>
+
+    <main>
+        <form id="survey-form">
+            <fieldset>
+                <legend>Personal Information:</legend>
+                <label id="name-label">Name:</label>
+                <label for="name"></label>
+                <input 
+                    type="text" 
+                    id="name"
+                    name="name"
+                    placeholder="Jan Kowalski"
+                    required
+                />
+                <label id="email-label">Email:</label>
+                <label for="email"></label>
+                <input 
+                    type="email" 
+                    id="email"
+                    name="email"
+                    placeholder="Jan.Kowalski@gmail.com"
+                    required
+                />
+                <label id="number-label">Age:</label>
+                <label for="number"></label>
+                <input 
+                    type="number" 
+                    id="number"
+                    name="age"
+                    placeholder="18"
+                    required
+                    min="18"
+                    max="100"  
+                />
+            </fieldset>
+            
+            <fieldset>
+                <legend>What were you first thoughs about the training?:</legend>
+                <label for="dropdown"></label>
+                <select id="dropdown">
+                    <option value="bad">Bad</option>    
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>   
+                    <option selected value="excellent">Excellent</option>
+                </select>     
+            </fieldset>
+
+            <fieldset>
+                <legend>Did the training meet your expectations?</legend>
+                <label for="yes-option">Yes</label>
+                <input 
+                    type="radio"
+                    id="yes-option"
+                    name="expectations"
+                    value="yes"
+                />
+                <label for="no-option">No</label>
+                <input 
+                    type="radio"
+                    id="no-option"
+                    name="expectations"
+                    value="no"
+                />
+            </fieldset>
+
+            <fieldset>
+                <legend>What should be changed in training's material?</legend>
+                <label for="content">Substantive content</label>
+                <input
+                    type="checkbox"
+                    id="content"
+                    name="content"
+                    value="content"
+                />
+                <label for="materials">Training materials</label>
+                <input
+                    type="checkbox"
+                    id="materials"
+                    name="materials"
+                    value="materials"
+                />
+                <label for="trainer">Competence of the trainer</label>
+                <input
+                    type="checkbox"
+                    id="trainer"
+                    name="trainer"
+                    value="trainer"
+                />
+                <label for="methods">Training methods</label>
+                <input
+                    type="checkbox"
+                    id="methods"
+                    name="methods"
+                    value="methods"    
+                />
+                <label for="conditions">Training conditions</label>
+                <input
+                    type="checkbox"
+                    id="conditions"
+                    name="conditions"
+                    value="conditions"
+                />
+                <label for="other">Other (please specify)</label>
+                <input
+                    type="checkbox"
+                    id="other"
+                    name="other"
+                    value="other"
+                />
+                <input 
+                    type="text" 
+                    id="other"
+                    name="other"
+                    placeholder="Other (please specify)"
+                />
+            </fieldset>
+            <fieldset>
+                <legend>Any additional comments?</legend>
+                <label for="comments"></label>
+                <textarea 
+                    id="comments"
+                    name="comments"
+                    rows="5"
+                    cols="30"
+                    placeholder="Please provide any additional comments or suggestions.">
+                </textarea>
+            </fieldset>
+            
+            <button type="submit" id="submit">Submit the answers.</button>
+        </form>
+    </main>
+
+    <footer>
+        <p id="footer-text">© 2023 Health & Safety Training Survey. All rights reserved.</p>
+        <p id="footer-text">Created by [Piotr Sasin]</p>
+    </footer>
+
+</body>
+
+</html>
