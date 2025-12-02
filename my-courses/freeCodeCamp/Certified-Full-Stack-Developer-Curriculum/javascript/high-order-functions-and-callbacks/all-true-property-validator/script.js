@@ -1,12 +1,12 @@
 function truthCheck(collection, pre) {
   let result = undefined;
   for (const obj of collection) {
-    if (obj[pre] == false || Number.isNaN(obj[pre]) === true) {
-      result = false;
-      break
-    } else {
+    if (obj[pre]) {
       result = true;
       continue
+    } else {
+      result = false;
+      break
     }
   }
   return result;
