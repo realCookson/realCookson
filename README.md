@@ -1,12 +1,6 @@
 <h1 align="left">Hello World! 👋 Welcome on my profile! 🙋‍♂️</h1>
 <p align="left">My name is Piotrek 👋 (but you can call me Cookson). I'm 25 years old, coding straight outta **2025**</p>
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=realCookson&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true" height="150" alt="languages graph"  />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=realCookson&theme=github_dark_dimmed&hide_border=false" height="150" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=realCookson&theme=github_dark_dimmed&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="133" alt="languages graph"  />
-</div>
-
 <h2 align="left">📌About me</h2>
 <p align="left">👨‍💻 What I'm up to:<br>I'm learning how to code from scratch — digging into HTML, CSS, JavaScript, backend stuff, databases, and everything in between. It's a wild ride, but I'm here for it! 🚀<br><br>🎓 A little backstory:<br>- 🎓 Graduated with an engineering degree from **Łódz University of Technology**<br>- 🦺 Specialized in **Health & Safety**<br>- 🧯 Currently working as a **Health & Safety Senior Inspector**<br>- 💻 Now adding “Full Stack Dev” to the resume – because why not?<br><br>🧠 Fun Facts:<br>- I used to inspect workplaces — now I inspect code (and bugs don't wear helmets) 😬 <br>- I believe coffee is a legitimate development tool ☕️<br><br>📫 Let’s connect!<br>Got tips, tricks, memes, or collab ideas? Hit me up!<br><br>---<br><br>"Safety first, then push to main."</p>
 
