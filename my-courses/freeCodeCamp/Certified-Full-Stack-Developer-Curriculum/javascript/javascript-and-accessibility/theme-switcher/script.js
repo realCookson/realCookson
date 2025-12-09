@@ -24,11 +24,20 @@ const themeMenuItem = document.querySelectorAll('[role="menuitem"]');
 themeMenuItem.forEach((item) => {
   item.addEventListener("click", () => {
     for (let obj of themes) {
-      const itemId = item.getAttribute("id");
       if (obj["name"] === item.textContent.toLowerCase()) {
-        const themeMsg = document.getElementById("theme-message");
+        const themeMsg = document.getElementById("status");
         themeMsg.textContent = obj["message"];
       }
+    }
+    const body = document.querySelector("body");
+    if (item.getAttribute("id") === "theme-light") {
+      body.setAttribute("class", "theme-light");
+    } else if (item.getAttribute("id") === "theme-dark") {
+      body.setAttribute("class", "theme-dark") ;
+    } else if (item.getAttribute("id") === "theme-high-contrast") {
+      body.setAttribute("class", "theme-high-contrast")
+    } else {
+      body.setAttribute("class", "theme-matrix")
     }
   });
 });
