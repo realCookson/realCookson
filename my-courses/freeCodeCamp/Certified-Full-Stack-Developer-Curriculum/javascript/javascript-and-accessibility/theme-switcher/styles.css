@@ -35,6 +35,9 @@ li:hover {
 #status {
   text-align: center;
   min-height: 20px;
+  position: relative;
+  top: -180px;
+  left: 100px;
 }
 
 .theme-light {
@@ -94,49 +97,57 @@ li:hover {
 }
 
 .theme-high-contrast {
-  background-color: color;
+  background-color: #2a9d8f;
 }
 
 .theme-high-contrast button {
-  color: color;
-  background-color: color;
+  color: #264653;
+  background-color: #f4a261;
 }
 
 .theme-high-contrast button:hover {
-  background-color: color;
-  color: color;
+  background-color: #e76f51;
+  color: #264653;;
 }
 
 .theme-high-contrast li {
-  background-color: color;
-  color: color;
+  background-color: #e9c46a;
+  color: #264653;
 }
 
 .theme-high-contrast li:hover {
-  background-color: color;
-  color: color;
+  background-color: #e76f51;
+  color: #264653;;
+}
+
+.theme-high-contrast p {
+  color: #eee;
 }
 
 .theme-matrix {
-  background-color: color;
+  background-color: #121212;
 }
 
-.theme-high-contrast button {
-  color: color;
-  background-color: color;
+.theme-matrix button {
+  color: #121212;
+  background-color: #36ba01;
 }
 
 .theme-matrix button:hover {
-  background-color: color;
-  color: color;
+  background-color: #36ba01;
+  color: #121212;
 }
 
 .theme-matrix li {
-  background-color: color;
-  color: color;
+  background-color: #121212;
+  color: #00ff2b;
 }
 
 .theme-matrix li:hover {
-  background-color: color;
-  color: color;
+  background-color: #36ba01;
+  color: #121212;
+}
+
+.theme-matrix p {
+  color: #00ff2b;
 }
