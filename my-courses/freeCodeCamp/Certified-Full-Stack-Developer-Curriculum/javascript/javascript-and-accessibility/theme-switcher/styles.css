@@ -7,8 +7,8 @@ body {
 button {
   border: none;
   padding: 10px 20px;
-  background-color: #c7f57d;
-  color: #111;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 button:hover {
@@ -22,9 +22,113 @@ ul {
 
 li {
   list-style-type: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 200px;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 #status {
   text-align: center;
   min-height: 20px;
+}
+
+.theme-light {
+  background-color: #fefefe;
+}
+
+.theme-light button {
+  color: #111;
+  background-color: #c7f57d;
+}
+
+.theme-light button:hover {
+  background-color: #597a25;
+  color: #eee;
+}
+
+.theme-light li {
+  background-color: #dff4be;
+  color: #111
+}
+
+.theme-light li:hover {
+  background-color: #597a25;
+  color: #eee;
+}
+
+.theme-dark {
+  background-color: color;
+}
+
+.theme-dark button {
+  color: color;
+  background-color: color;
+}
+
+.theme-dark button:hover {
+  background-color: color;
+  color: color;
+}
+
+.theme-dark li {
+  background-color: color;
+  color: color;
+}
+
+.theme-dark li:hover {
+  background-color: color;
+  color: color;
+}
+
+.theme-high-contrast {
+  background-color: color;
+}
+
+.theme-high-contrast button {
+  color: color;
+  background-color: color;
+}
+
+.theme-high-contrast button:hover {
+  background-color: color;
+  color: color;
+}
+
+.theme-high-contrast li {
+  background-color: color;
+  color: color;
+}
+
+.theme-high-contrast li:hover {
+  background-color: color;
+  color: color;
+}
+
+.theme-matrix {
+  background-color: color;
+}
+
+.theme-high-contrast button {
+  color: color;
+  background-color: color;
+}
+
+.theme-matrix button:hover {
+  background-color: color;
+  color: color;
+}
+
+.theme-matrix li {
+  background-color: color;
+  color: color;
+}
+
+.theme-matrix li:hover {
+  background-color: color;
+  color: color;
 }
