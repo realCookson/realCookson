@@ -61,28 +61,36 @@ li:hover {
   color: #eee;
 }
 
+.theme-light p {
+  color: #111;
+}
+
 .theme-dark {
-  background-color: color;
+  background-color: #121212;
 }
 
 .theme-dark button {
-  color: color;
-  background-color: color;
+  color: #eee;
+  background-color: #444444;
 }
 
 .theme-dark button:hover {
-  background-color: color;
-  color: color;
+  background-color: #E0E0E0;
+  color: #121212;
 }
 
 .theme-dark li {
-  background-color: color;
-  color: color;
+  background-color: #B0B0B0;
+  color: #121212;
 }
 
 .theme-dark li:hover {
-  background-color: color;
-  color: color;
+  background-color: #888888;
+  color: #121212;
+}
+
+.theme-dark p {
+  color: #eee;
 }
 
 .theme-high-contrast {
