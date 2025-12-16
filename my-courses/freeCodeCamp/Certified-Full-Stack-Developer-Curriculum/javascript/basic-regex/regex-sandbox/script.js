@@ -2,6 +2,7 @@ const regexPattern = document.getElementById("pattern");
 const stringToTest = document.getElementById("test-string");
 const testButton = document.getElementById("test-btn");
 const testResult = document.getElementById("test-btn");
+const resultMsg = document.getElementById("result");
 
 const caseInsensitiveFlag = document.getElementById("i");
 const globalFlag = document.getElementById("g");
@@ -23,4 +24,17 @@ function getFlags() {
   return result;
 }
 
-testButton.addEventListener("click", getFlags);
+function handleRegexSandbox() {
+  //TODO include i and g flag somehow
+  const userRegexPattern = new RegExp(regexPattern.value);
+  console.log(userRegexPattern);
+  console.log(stringToTest.textContent);
+  console.log(userRegexPattern.test(stringToTest.textContent));
+  if (userRegexPattern.test(stringToTest.textContent) === true) {
+    return (resultMsg.textContent = regexPattern.value);
+  } else {
+    return (resultMsg.textContent = "no match");
+  }
+}
+
+testButton.addEventListener("click", handleRegexSandbox);
