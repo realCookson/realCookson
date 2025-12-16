@@ -25,13 +25,15 @@ function getFlags() {
 }
 
 function handleRegexSandbox() {
-  //TODO include i and g flag somehow
-  const userRegexPattern = new RegExp(regexPattern.value);
+  const userRegexPattern = new RegExp(regexPattern.value, getFlags());
   console.log(userRegexPattern);
   console.log(stringToTest.textContent);
   console.log(userRegexPattern.test(stringToTest.textContent));
   if (userRegexPattern.test(stringToTest.textContent) === true) {
-    return (resultMsg.textContent = regexPattern.value);
+    resultMsg.textContent = regexPattern.value;
+    //TODO must define innerHTML
+    //stringToTest.innerHTML =
+    return;
   } else {
     return (resultMsg.textContent = "no match");
   }
