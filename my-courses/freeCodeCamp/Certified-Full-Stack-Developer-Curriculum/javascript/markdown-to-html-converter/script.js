@@ -22,12 +22,12 @@ function convertMarkdown() {
   result = result.replaceAll(imgRegex, `<img alt="$1" src="$2">`);
   result = result.replaceAll(linkRegex, `<a href="$2">$1</a>`);
   result = result.replaceAll(quoteRegex, "<blockquote>$1</blockquote>");
-  console.log(result);
   if (result === userInput) {
     htmlOutput.textContent = ""; //basically if conversion wasn't made, then don't send output
   } else {
     htmlOutput.textContent = result;
   }
+  console.log(`htmlOutput: ${htmlOutput.textContent}`);
   return (htmlPreview.innerHTML = htmlOutput.textContent);
 }
 
